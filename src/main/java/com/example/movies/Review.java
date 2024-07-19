@@ -18,4 +18,9 @@ public class Review {
     public Review(String reviewBody) {
         this.body=reviewBody;
     }
+    @Override
+    public String toString() {
+        return "Review [id=" + id + ", body=" + body + "]";
+    }
+    
 }
